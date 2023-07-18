@@ -21,10 +21,15 @@ http://localhost:8080/api/character/{id}/favourite It will marks/unmark a charac
 
 
 Update application.properties with your database details
+
 spring.datasource.url=jdbc:postgresql://localhost:{port_number}/{database_name}
+
 spring.datasource.username={username}
+
 spring.datasource.password={password}
 
 Update Maven
+
 Build your project
+
 Run as Spring Boot App
