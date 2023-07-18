@@ -2,7 +2,8 @@
 
 List of api
 
-GET Request 
+GET Request
+ 
 http://localhost:8080/api/character/houses - In response returns a list of all unique house names.
 Example :   ["Lannister","Frey","Martell","Tyrell","Tully","Targaryen","Baratheon","Umber","Bolton","Mormont","Stark","Greyjoy","Arryn","Tarly"]
 
@@ -15,6 +16,7 @@ http://localhost:8080/api/character/favorites In response returns all json with 
 
 
 PUT request
+
 http://localhost:8080/api/character/{id}/favourite It will marks/unmark a character as a favourite with that particular id
 
 
